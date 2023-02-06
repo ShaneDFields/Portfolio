@@ -68,12 +68,13 @@ body {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  text-align: center; }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 3.5rem;
+    letter-spacing: 2rem;
     animation: moveInLeft 1s ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
@@ -85,7 +86,8 @@ body {
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out;
-    color: #ff4d5a; }
+    color: #ff4d5a;
+    text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       letter-spacing: 0.5rem; } }
@@ -177,7 +179,7 @@ body {
   @media only screen and (max-width: 56.25em) {
     .btn__2 {
       margin-top: 3rem;
-      margin-right: 1.5rem; } }
+      margin-right: 1.6rem; } }
 
 .btn--primary {
   background-color: #ff4d5a;
@@ -264,8 +266,7 @@ body {
     .card__picture--1 {
       background-image: url(../img/img-4.png);
       background-position: center;
-      overflow: hidden;
-      background-size: cover; }
+      overflow: hidden; }
     .card__picture--2 {
       background-image: url(../img/decoder-ring.png);
       background-position: center;
@@ -375,7 +376,7 @@ body {
       .profile__photo {
         position: relative;
         width: 60%;
-        margin-left: 8rem;
+        margin-left: 7.5rem;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .profile__photo:hover {
       outline: 1.5rem solid #ff4d5a;
