@@ -19,8 +19,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Shane Fields</span>
@@ -37,6 +38,15 @@
     </header>
 
     <main>
+      <nav class="navigation">
+        <div class="navigation__group">
+          <a href="#home" class="navigation__items">Home</a>
+          <a href="#about" class="navigation__items">About</a>
+          <a href="#projects" class="navigation__items">Projects</a>
+          <a href="#contact" class="navigation__items">Contact</a>
+        </div>
+      </nav>
+
       <section class="section-about" id="about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Get to know me</h2>
@@ -354,7 +364,7 @@
                     required
                     name="name"
                   />
-                  <label for="name" class="form__label">Name</label>
+                  <label for="name" class="form__label"></label>
                 </div>
 
                 <div class="form__group">
@@ -366,13 +376,24 @@
                     required
                     name="email"
                   />
-                  <label for="email" class="form__label">Email</label>
+                  <label for="email" class="form__label"></label>
+                </div>
+
+                <div class="form__group form__group--message">
+                  <textarea
+                    class="form__input"
+                    placeholder="Type Message"
+                    rows="3"
+                    id="message"
+                    required
+                    name="message"
+                  ></textarea>
+
+                  <label for="message" class="form__label"></label>
                 </div>
 
                 <div class="form__group">
-                  <button class="btn btn--primary" type="submit">
-                    Connect
-                  </button>
+                  <button class="btn btn--primary" type="submit">Submit</button>
                 </div>
               </form>
             </div>
