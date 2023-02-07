@@ -367,18 +367,18 @@ body {
     z-index: 10;
     transition: all 0.2s;
     outline-offset: 2rem;
-    margin-left: 5rem;
+    margin-left: 10rem;
     margin-top: 4rem; }
     @media only screen and (max-width: 56.25em) {
       .profile__photo {
         position: relative;
-        width: 60%;
+        width: 70%;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     @media only screen and (max-width: 37.5em) {
       .profile__photo {
-        position: relative;
-        width: 60%;
-        margin-left: 7.5rem;
+        width: 70%;
+        margin-left: 6.8rem;
+        margin-top: 2rem;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .profile__photo:hover {
       outline: 1.5rem solid #ff4d5a;
