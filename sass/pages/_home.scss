@@ -11,6 +11,12 @@
   }
 }
 
+.resume {
+  @include respond(phone) {
+    display: flex;
+    justify-content: center;
+  }
+}
 .section-portfolio {
   padding: 10rem 0;
   background-image: linear-gradient(
