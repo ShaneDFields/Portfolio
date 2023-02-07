@@ -138,19 +138,19 @@
     text-align: center;
   }
 
-  &__price-box {
+  &__tech-box {
     text-align: center;
     color: $color-white;
     margin-bottom: 4rem;
   }
 
-  &__price-only {
+  &__tech-only {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 400;
   }
 
-  &__price-value {
+  &__tech-value {
     font-size: 2rem;
     font-weight: 300;
   }
@@ -161,6 +161,9 @@
     background-color: $color-white;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
+    li {
+      font-size: 1.7rem;
+    }
     &__side {
       height: auto;
       position: relative;
@@ -178,6 +181,7 @@
 
     &__details {
       padding: 1rem 3rem;
+      // display: none;
     }
 
     // FRONT SIDE STYLING
@@ -187,15 +191,15 @@
       left: 0;
       transform: translate(0);
       width: 100%;
-      padding: 7rem 4rem 4rem 4rem;
+      padding: 1rem 1rem 1rem 1rem;
     }
 
-    &__price-box {
-      margin-bottom: 3rem;
+    &__tech-box {
+      margin-bottom: 1rem;
     }
 
-    &__price-value {
-      font-size: 4rem;
+    &__tech-value {
+      font-size: 2.5rem;
     }
   }
 }
