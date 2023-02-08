@@ -1,23 +1,38 @@
 .navigation {
   color: $color-primary;
 
-  font-size: 2rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 1.9rem;
+  font-weight: 400;
+  // text-transform: uppercase;
   position: sticky;
   top: 0;
   background-color: $color-grey-dark-3;
   z-index: 1000;
+  // padding-top: 0.5rem;
+  // padding-bottom: 0.5rem;
+  // padding: 0.5rem 1.5rem 0.5rem;
 
   &__group {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+
+    @include respond(phone) {
+      justify-content: center;
+    }
   }
 
   &__items {
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     text-decoration: none;
     cursor: pointer;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &:last-child {
+      padding-right: 5rem;
+    }
 
     &:link,
     &:visited {
@@ -30,6 +45,17 @@
     &:active,
     &:focus {
       color: $color-grey-light-2;
+    }
+
+    @include respond(phone) {
+      &:last-child {
+        padding-right: 1rem;
+      }
+      @include respond(tab-port) {
+        &:last-child {
+          padding-right: 2rem;
+        }
+      }
     }
   }
 }
