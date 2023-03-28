@@ -49,8 +49,7 @@ html {
       font-size: 75%; } }
 
 body {
-  box-sizing: border-box;
-  padding: 3rem; }
+  box-sizing: border-box; }
   @media only screen and (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -515,8 +514,9 @@ body {
 
 .footer {
   background-color: #333;
-  padding-top: 5rem;
+  padding-top: 1rem;
   font-size: 2rem;
+  padding-bottom: 1rem;
   color: #f7f7f7; }
   @media only screen and (max-width: 56.25em) {
     .footer {
