@@ -527,7 +527,7 @@ body {
     justify-content: center; }
   .footer__item {
     color: #ff4d5a;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     font-size: 3.5rem; }
   .footer__item:link, .footer__item:visited {
     color: #f7f7f7;
@@ -540,7 +540,7 @@ body {
     color: #ff4d5a;
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
     text-transform: uppercase;
     font-size: 1.3rem; }
 
