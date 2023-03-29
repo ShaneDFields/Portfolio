@@ -621,7 +621,7 @@ body {
   background-image: linear-gradient(to right bottom, #333, #777); }
   @media only screen and (max-width: 56.25em) {
     .section-contact {
-      padding: 10rem 0; } }
+      padding: 5rem 0; } }
   @media only screen and (max-width: 56.25em) {
     .section-contact {
       text-align: center; } }

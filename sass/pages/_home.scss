@@ -60,7 +60,7 @@
   );
 
   @include respond(tab-port) {
-    padding: 10rem 0;
+    padding: 5rem 0;
   }
   @include respond(tab-port) {
     text-align: center;
