@@ -66,10 +66,15 @@ body {
 }
 
 .heading-tertiary {
-  font-size: $default-font-size;
+  font-size: 2rem;
   font-weight: 700;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
+
+// .project-heading {
+//   padding-bottom: 20px;
+//   margin-left: 5rem;
+// }
 
 .paragraph {
   font-size: 2rem;
