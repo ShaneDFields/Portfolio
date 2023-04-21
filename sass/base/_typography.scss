@@ -2,7 +2,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: $color-grey-dark;
+  color: black;
 }
 
 .heading-primary {
@@ -68,13 +68,29 @@ body {
 .heading-tertiary {
   font-size: 2rem;
   font-weight: 700;
-  // text-transform: uppercase;
+  color: black;
 }
 
-// .project-heading {
-//   padding-bottom: 20px;
-//   margin-left: 5rem;
-// }
+h3.gradient span {
+  font-size: 2.5rem;
+
+  text-align: center;
+  // text-transform: uppercase;
+  // background: linear-gradient(
+  //   0deg,
+  //   $color-primary 0%,
+  //   $color-primary 16%,
+  //   $color-primary 35%,
+  //   rgba(255, 0, 255, 0) 35%,
+  //   rgba(255, 0, 255, 0) 41%
+  // );
+}
+
+h3.padding span {
+  // padding: 0 0.5em 0.1em 0.1em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
 
 .paragraph {
   font-size: 2rem;
