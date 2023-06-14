@@ -35,7 +35,7 @@
 
   &--white {
     background-color: $color-white;
-    color: black;
+    color: $color-primary;
 
     &::after {
       background-color: $color-white;
