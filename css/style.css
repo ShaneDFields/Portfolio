@@ -185,7 +185,7 @@ h3.padding span {
 
 .btn--white {
   background-color: #fff;
-  color: #1e90ff; }
+  color: black; }
   .btn--white::after {
     background-color: #fff; }
 
