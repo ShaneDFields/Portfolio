@@ -16,9 +16,12 @@
   &__group {
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
 
     @include respond(phone) {
       justify-content: center;
+      gap: 1rem;
     }
   }
 
