@@ -16,24 +16,6 @@
     justify-content: center;
   }
 }
-// .section-portfolio {
-//   padding: 10rem 0;
-//   background-image: url(../img/blue-background.jpg);
-
-//   background-size: cover;
-
-//   transform: skewY(-7deg);
-//   margin-top: -10rem;
-//   // margin-bottom: -17rem;
-
-//   & > * {
-//     transform: skewY(7deg);
-//   }
-
-//   @include respond(tab-port) {
-//     padding: 10rem 0;
-//   }
-// }
 
 .section-projects {
   background-color: $color-grey-light-2;
