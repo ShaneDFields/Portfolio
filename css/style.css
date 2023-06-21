@@ -394,7 +394,7 @@ h3.padding span {
     @media only screen and (max-width: 37.5em) {
       .profile__photo {
         width: 70%;
-        margin-left: 6rem;
+        margin-left: 5.5rem;
         margin-top: 2rem;
         box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2); } }
     .profile__photo:hover {
